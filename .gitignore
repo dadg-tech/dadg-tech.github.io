@@ -4,4 +4,5 @@ dist/
 dadg-desktop.png
 dadg-mobile.png
 dadg-*.png
+!assets/dadg-logo.png
 .DS_Store
