@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.playwright-mcp/
+dadg-desktop.png
+dadg-mobile.png
+.DS_Store
