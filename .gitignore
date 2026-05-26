@@ -3,4 +3,5 @@ dist/
 .playwright-mcp/
 dadg-desktop.png
 dadg-mobile.png
+dadg-*.png
 .DS_Store

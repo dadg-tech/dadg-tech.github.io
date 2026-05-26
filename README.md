@@ -29,6 +29,12 @@ Build production assets:
 npm run build
 ```
 
+Build and copy production assets to the repository root for branch-based GitHub Pages:
+
+```bash
+npm run build:root
+```
+
 Run TypeScript checks without building:
 
 ```bash
