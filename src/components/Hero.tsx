@@ -13,10 +13,12 @@ export function Hero({ ogreMode, onToggleOgreMode }: HeroProps) {
       <div className="relative z-10 mx-auto max-w-4xl">
         <img
           className="mx-auto mb-8 h-32 w-32 rounded-md border border-neon/60 object-cover shadow-neon sm:h-40 sm:w-40"
-          src="/assets/dadg-logo.png"
+          src="/assets/hero-logo.png"
           alt="DADG pixel pig logo"
           width="160"
           height="160"
+          fetchPriority="high"
+          decoding="async"
         />
         <h1 className="font-display text-5xl font-bold leading-none text-neon sm:text-7xl md:text-8xl">
           {SITE_COPY.title}
